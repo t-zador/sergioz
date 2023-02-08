@@ -1,0 +1,36 @@
+html
+  head
+    meta(name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width, height=device-height")
+    title Sergio Art
+    link(href="index.css" rel="stylesheet")
+  body
+    .header
+      .div
+        img.face(src=src=`/thumbs/0.JPG`)
+      .name
+        .name0
+        .name1 СЕРГІЙ ЗАДОРОЖНИЙ художник
+        .name2 1945-2020
+    .pictures
+      each picture in pictures
+        a.frame(href=`/${picture}`)
+          img.picture(src=`/thumbs/${picture}.JPG`)
+          .text
+            div
+              div= texts[picture][0]
+              div= texts[picture][2]
+      .bio
+        .bio0= bio0
+        .bio1= bio1
+        .bio2= bio2
+      .vustavku
+        div &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В И С Т А В К И :
+        div 1965 - виставка молодих художників Львова. Львівська картинна галерея.
+        div 2012 - виставка художників Тернополя (як запрошений учасник).
+        div 2012 - Осінній салон “Високий Замок” в Палаці Мистецтв, м.Львів.
+        div 2013 - Осінній салон “Високий Замок” в Палаці Мистецтв, м.Львів.
+        div 2014 - Осінній салон “Високий Замок” в Палаці Мистецтв, м.Львів.
+        div 2015 - Осінній салон “Високий Замок” в Палаці Мистецтв, м.Львів.
+        div 2017 - Осінній салон “Високий Замок” в Палаці Мистецтв, м.Львів.
+        div 2018 - Осінній салон “Високий Замок” в Палаці Мистецтв, м.Львів.
+        div 2019 - Осінній салон “Високий Замок” в Палаці Мистецтв, м.Львів.

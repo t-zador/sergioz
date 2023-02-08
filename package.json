@@ -1,0 +1,13 @@
+{
+  "name": "serge-zador",
+  "scripts": {
+    "start": "node server/main.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

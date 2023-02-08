@@ -1,0 +1,30 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background: #ddd;
+}
+
+.frame {
+  display: inline-block;
+  box-shadow: 0 0 8px #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  background: white;
+}
+
+.picture {
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 72px);
+}
+
+.text {
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: left;
+  display: flex;
+}
+.number {
+  margin-right: 8px;
+}

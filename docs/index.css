@@ -1,0 +1,78 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding-top: 2px;
+  background: #ddd;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+}
+
+.face {
+  width: 160px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+.name0 {
+  flex-grow: 1;
+}
+.name1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.name2 {
+  font-size: 18px;
+}
+
+.frame {
+  display: inline-block;
+  margin: 8px;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #ccc;
+}
+
+.picture {
+  max-width: 300px;
+  max-height: 382px;
+}
+
+.text {
+  font-size: 14px;
+  margin-top: 8px;
+  display: flex;
+}
+.number {
+  margin-right: 8px;
+}
+
+.bio {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 8px;
+  text-align: left;
+}
+.bio0 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.bio2 {
+  margin-top: -18px;
+  white-space: pre-wrap;
+}
+
+.vustavku {
+  margin-left: 16px;
+}
