@@ -2,11 +2,12 @@ html
   head
     meta(name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width, height=device-height")
     title Sergio Art
-    link(href="index.css" rel="stylesheet")
+    link(rel="icon" type="image/x-icon" href="https://tzador.github.io/sergioz/favicon.ico")
+    link(href="https://tzador.github.io/sergioz/index.css" rel="stylesheet")
   body
     .header
       .div
-        img.face(src=src=`/thumbs/0.JPG`)
+        img.face(src=`https://raw.githubusercontent.com/tzador/sergioz/main/docs/thumbs/0.JPG`)
       .name
         .name0
         .name1 СЕРГІЙ ЗАДОРОЖНИЙ художник
@@ -14,7 +15,7 @@ html
     .pictures
       each picture in pictures
         a.frame(href=`/${picture}`)
-          img.picture(src=`/thumbs/${picture}.JPG`)
+          img.picture(src=`https://raw.githubusercontent.com/tzador/sergioz/main/docs/thumbs/${picture}.JPG`)
           .text
             div
               div= texts[picture][0]

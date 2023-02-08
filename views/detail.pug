@@ -2,11 +2,11 @@ html
   head
     meta(name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width, height=device-height")
     title Sergio Art
-    link(href="detail.css" rel="stylesheet")
+    link(href="https://tzador.github.io/sergioz/detail.css" rel="stylesheet")
   body
     .frame
-      img.picture(src=`/pictures/${picture}.JPG`)
+      img.picture(src=`https://raw.githubusercontent.com/tzador/sergioz/main/docs/pictures/${picture}.JPG`)
       .text
         div
-          div= data.texts[picture][0]
-          div= data.texts[picture][2]
+          div= (data.texts[picture] || [])[0]
+          div= (data.texts[picture] || [])[2]

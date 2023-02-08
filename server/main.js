@@ -2,6 +2,8 @@ const express = require("express");
 const data = require("./data");
 
 const app = express();
+module.exports = app;
+
 app.set("view engine", "pug");
 
 app.use("/", (req, res, next) => {
