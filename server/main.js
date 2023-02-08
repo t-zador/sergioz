@@ -1,3 +1,4 @@
+const path = require("path");
 const express = require("express");
 const data = require("./data");
 
@@ -5,6 +6,7 @@ const app = express();
 module.exports = app;
 
 app.set("view engine", "pug");
+app.set("views", path.join(__dirname, "../views"));
 
 app.use("/", (req, res, next) => {
   if (req.hostname === "www.sergioz.co") {
